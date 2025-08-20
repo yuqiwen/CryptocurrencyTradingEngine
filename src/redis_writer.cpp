@@ -1,5 +1,5 @@
-#include "../include/redis_writer.h"
-#include "../include/timescaledb_reader.h"  // 为了使用数据结构
+#include "redis_writer.h"
+#include "timescaledb_reader.h"  // 为了使用数据结构
 #include <hiredis/hiredis.h>
 #include <iostream>
 #include <sstream>

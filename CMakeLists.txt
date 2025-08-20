@@ -12,6 +12,7 @@ pkg_check_modules(HIREDIS REQUIRED hiredis)
 
 # 头文件路径
 include_directories(include)
+include_directories(external)
 include_directories(${PostgreSQL_INCLUDE_DIRS})
 include_directories(${HIREDIS_INCLUDE_DIRS})
 include_directories(${CURL_INCLUDE_DIRS})
@@ -47,6 +48,7 @@ target_link_libraries(trading_engine_manager PRIVATE
 add_executable(engine_server
     src/engine_server.cpp
     src/engine_api.cpp
+    src/crow_router.cpp  
 )
 target_link_libraries(engine_server PRIVATE
     trading_engine_manager

@@ -1,4 +1,4 @@
-#include "../include/data_sync_service.h"
+#include "data_sync_service.h"
 #include <iostream>
 
 DataSyncService::DataSyncService(const std::string& db_conninfo,

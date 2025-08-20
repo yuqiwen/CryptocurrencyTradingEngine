@@ -1,5 +1,5 @@
-#include "../include/arbitrage_strategy.h"
-#include "../include/trading_engine_manager.h"
+#include "arbitrage_strategy.h"
+#include "trading_engine_manager.h"
 #include <iostream>
 #include <iomanip>
 #include <algorithm>

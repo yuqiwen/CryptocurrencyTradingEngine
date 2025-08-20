@@ -1,4 +1,4 @@
-#include "../include/timescaledb_reader.h"
+#include "timescaledb_reader.h"
 #include <libpq-fe.h>
 #include <iostream>
 
